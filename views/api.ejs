@@ -1,6 +1,6 @@
 
   <pre><code>
-    //Get paste.
+    // Get paste.
     const axios = require('axios');
     axios.get('https://emrahpaste.tk/api/get/:id')
     .then(function (response) {
@@ -10,9 +10,9 @@
       console.log(error);
     })
 
-    //Save paste.
+    // Save paste.
     axios.post('https://emrahpaste.tk/api/post/:paste', {
-      content: 'You paste.'
+      content: 'Your paste.'
     })
     .then(function (response) {
       console.log(response.data);
